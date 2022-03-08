@@ -1,0 +1,22 @@
+{
+  "name": "LeetCode",
+  "version": "0.1.0",
+  "summary": "A short description of LeetCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/E0097/LeetCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "E0097": "luochao123"
+  },
+  "source": {
+    "git": "https://github.com/E0097/LeetCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LeetCode/Classes/**/*"
+}

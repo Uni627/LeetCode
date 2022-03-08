@@ -1,0 +1,6 @@
+framework module LeetCode {
+  umbrella header "LeetCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
