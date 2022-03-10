@@ -28,7 +28,9 @@
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		91CA9A498D0DA284FB0F721058523DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		9584265F27D752A900F535EA /* 初级算法 in Resources */ = {isa = PBXBuildFile; fileRef = 9584265E27D752A900F535EA /* 初级算法 */; };
+		95349BD227D9AB5300A1A9B9 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95349BD127D9AB5300A1A9B9 /* day03.swift */; };
+		956BFA2927D77EDD009F4D61 /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BFA2827D77EDD009F4D61 /* day01.swift */; };
+		957CB04B27D84065000F4F84 /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957CB04A27D84065000F4F84 /* day02.swift */; };
 		96A1BF4582DAD6D2964F1BDB67D97FD6 /* Pods-LeetCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FE08B7F4A630D0513FD89275A11DC9 /* Pods-LeetCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
@@ -102,7 +104,9 @@
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		948B8B4D60B3C353644A9C349B37EB1B /* Pods-LeetCode_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeetCode_Example"; path = Pods_LeetCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9584265E27D752A900F535EA /* 初级算法 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "初级算法"; path = "LeetCode/初级算法"; sourceTree = "<group>"; };
+		95349BD127D9AB5300A1A9B9 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
+		956BFA2827D77EDD009F4D61 /* day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01.swift; sourceTree = "<group>"; };
+		957CB04A27D84065000F4F84 /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		991097D8E8E7D03B0AAB01094480EEB0 /* LeetCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeetCode.modulemap; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
@@ -190,10 +194,12 @@
 		4A8DE5F38015B01CB4DAF31DC07123A8 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				9584265E27D752A900F535EA /* 初级算法 */,
+				956BFA2827D77EDD009F4D61 /* day01.swift */,
+				957CB04A27D84065000F4F84 /* day02.swift */,
 				88353DE42216A827975C4386BE24F050 /* ReplaceMe.swift */,
 				142F679BF2A5D9350BB25A29692A716C /* Pod */,
 				BA11D29FA9EF948325491025C4787CA0 /* Support Files */,
+				95349BD127D9AB5300A1A9B9 /* day03.swift */,
 			);
 			name = LeetCode;
 			path = ../..;
@@ -529,7 +535,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9584265F27D752A900F535EA /* 初级算法 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +570,9 @@
 			files = (
 				420CCE4C81394EA13F2881915AF3B150 /* LeetCode-dummy.m in Sources */,
 				2F7EF0421F9132A4912FEE4F493E540C /* ReplaceMe.swift in Sources */,
+				95349BD227D9AB5300A1A9B9 /* day03.swift in Sources */,
+				957CB04B27D84065000F4F84 /* day02.swift in Sources */,
+				956BFA2927D77EDD009F4D61 /* day01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
